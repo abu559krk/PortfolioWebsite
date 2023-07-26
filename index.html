@@ -15,10 +15,10 @@
         <div class="navbar">
            <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Services</li>
-                <li>Contact</li>
+                <li><a href="https://www.google.com/">Home</a></li>
+                <li><a href="https://www.google.com/">About</a></li>
+                <li><a href="https://www.google.com/">Services</a></li>
+                <li><a href="https://www.google.com/">Contact</a></li>
             </ul>
            </nav>
         </div>
@@ -28,12 +28,20 @@
             <div class="left-section">
                 HI, MY NAME IS <span class="name">ABUBAKAR,</span> 
                 <div>AND I AM PASSIONATE </div>
-                <div>WEB DEVELOPER</div>
+                <span id="element"></span>
             </div>
             <div class="right-section">
                 <img src="developerCopy.png" alt="image">
             </div>
         </section>
     </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Web Designer', 'Digital Marketer', 'Copy Writer !'],
+      typeSpeed: 50,
+    });
+  </script>
 </body>
 </html>
