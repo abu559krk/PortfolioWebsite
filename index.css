@@ -40,7 +40,7 @@ nav ul li a:hover{
 .first-section{
     display: flex;
     justify-content: space-around;
-    margin: 80px 0;
+    margin: 100px 0;
     align-items: center;
 }
 .first-section >div{
@@ -60,4 +60,35 @@ nav ul li a:hover{
 }
 #element{
     color:blueviolet
+}
+.second-section{
+    width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+main hr{
+    border: 0;
+    margin: 40px 80px;
+    background-color: gold;
+    height: 1.2px;
+}
+.second-section h1{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.second-section-span{
+    color: wheat;
+}
+.second-section .box{
+    background-color: white;
+    width: 80vh;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.second-section .vertical{
+    background-color: white;
+    width: 1px;
+    height: 93px;
+    margin: 0 100px;
 }
